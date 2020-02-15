@@ -1,0 +1,159 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+// $body:thistle;
+$body:black;
+$background_color:#FCCBBD;
+$q_border:#41676b;
+$q_background:#FCCBBD;
+$a_border:#41676b;
+$a_background:#FCCBBD;
+
+
+
+
+body{
+  background-color: $body;
+}
+
+
+.whats_your_name{
+  position: fixed;
+  width: 300px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px; /* Negative half of height. */
+  margin-left: -150px; /* Negative half of width. */
+  background-color: $background_color;
+  border-radius: 5px;
+  border: 5px solid $q_border;
+  display: flex;
+  justify-content: center;
+
+  input{
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 1.5em;
+  }
+
+  button{
+    width: 40px;
+    height: 40px;  
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 12px;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(58, 25, 6);
+
+
+  }
+}
+
+
+
+.container{
+  position: fixed;
+  width: 700px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px; /* Negative half of height. */
+  margin-left: -350px; /* Negative half of width. */
+  background-color: $background_color;
+  border-radius: 5px;
+  border: 5px solid $q_border;
+
+
+  p{
+    font-size: 2.5em;
+    border:3px solid $q_border;
+    padding:2px;
+    border-radius: 6px;
+    margin:70px 10px 30px 10px;
+    background-color: $q_background;
+    text-align: right;
+    
+    
+  }
+
+  .options{
+    display: flex;
+    justify-content: center;
+
+    li{
+      margin: 5px;
+      display: inline-block;
+      width:20%;
+      height: 50px;
+      text-align: center;
+      border: 3px solid $a_border;
+      border-radius: 6px;
+      background-color: $a_background;
+      font-size: 1.8em;
+    
+    }
+
+    li:hover {
+      background-color: seagreen;
+    }
+    li:focus {
+      background-color: seagreen;
+    }
+    
+ 
+
+  }
+
+
+  
+
+
+  button{
+    display: block;
+    width:130px;
+    height:50px;
+    float: right;
+    margin-top: 60px;
+    margin-right: 10px;
+  }
+}
+
+
+
+
+
+.score_page{
+  position: fixed;
+  width: 400px;
+  height: 460px;
+  top: 50%;
+  left: 50%;
+  margin-top: -230px; /* Negative half of height. */
+  margin-left: -200px; /* Negative half of width. */
+  display:flex ;
+  flex-direction: row;
+  background-color: paleturquoise;
+  padding-top: 40px;
+  justify-content: center;
+  
+  p{
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  li{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 1.5em;
+  
+  }
+}

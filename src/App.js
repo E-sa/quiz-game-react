@@ -20,11 +20,6 @@ import './App.scss'
    ]
 
 
-  //  const key =
-  //  [
-  //    "eight","belgium","aram oceon"
-  //  ]
-
   const key =
   [
     "fish","10","10"

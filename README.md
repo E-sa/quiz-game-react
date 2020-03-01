@@ -18,14 +18,14 @@ To start:
 ### `instruction:`
   
 There is no sample question in this game. You need to add you own question and possible answers like this:
+
 inside `src`, `App.js`:
    
-   
-    add question in `const questions` 
-   
-    add four options for that question in  `const answers`,
++ add question in `const questions` 
+ 
++ add four options for that question in  `const answers`
     
-    finally add the correct answer in `const key`
++ finally add the correct answer in `const key`
    
    
    

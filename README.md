@@ -1,23 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Quiz Game!
+
+Simple example of a quiz game.
 
 
-### `inside folder:`
-  npm install
-  
-  npm install node-sass
+To start:
 
-  npm start
+    1.Download the project
+  
+    2.Run `npm install`
+  
+    3.Run `npm start`
+  
+    4.See the result on your browser
+
   
   
+### `instruction:`
   
-  ### `instruction:`
-   in `src`, `App.js`:
+There is no sample question in this game. You need to add you own question and possible answers like this:
+inside `src`, `App.js`:
    
-   add question in `const questions` 
    
-   add four options for that question in  `const answers`,
+    add question in `const questions` 
    
-   and add the correct answer in `const key`
+    add four options for that question in  `const answers`,
+    
+    finally add the correct answer in `const key`
+   
+   
+   
 
 
 

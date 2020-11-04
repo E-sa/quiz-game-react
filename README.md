@@ -29,6 +29,10 @@ inside `src`, `App.js`:
    
    
    
+live version:
+https://quiz-game-react-eosin.vercel.app/
+   
+   
 
 
 
